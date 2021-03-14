@@ -48,7 +48,7 @@ RUN rm -rf /install &&  rm -rf /root/.cache/pip
 
 RUN chmod 755 /app/docker/*.sh
 
-EXPOSE 8000
+EXPOSE 8880
 
 LABEL maintainer="gxtrobot <gxtrobot@gmail.com>"
 
